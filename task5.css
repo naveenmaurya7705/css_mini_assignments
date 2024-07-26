@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(57, 54, 54);
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.right-nav{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+
+.right-nav div:hover{
+    cursor: pointer;
+    color: red;
+    font-size: 1.1rem;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 240, 240);
+    margin-top: 30px;
+   
+   
+}
+#div1{
+    /* border: 2px solid ; */
+    background-color: white;
+    width: 38vw;
+    padding: 10px;
+    height: 88vh;
+    margin-left: 11vw;
+}
+
+#div2{
+    /* border: 2px solid ; */
+    background-color: white;
+    width: 38vw;
+    padding: 10px;
+    height: 88vh;
+    margin-right: 11vw;
+
+}
+#div1 div{
+    margin: 20px;
+}
+
+#div1 span{
+    letter-spacing: 2px;
+}
+li{
+    color: red;
+}
+
+img{
+    width: 30vw;
+    height: 50vh;
+}
+
+#heading{
+    border-bottom: 5px solid red;
+}
+ 
+form p{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 34vw;
+    height: 4vh;
+}
+
+#div2 span{
+    color: red;
+}
+textarea{
+    width: 34vw;
+    height: 40vh;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 40%;
+}

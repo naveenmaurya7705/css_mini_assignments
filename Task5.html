@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="task5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>WT</h1>
+            </div>
+            <div class="right-nav">
+                <div>HOME</div>
+                <div>ABOUT</div>
+                <div>CONTACTS</div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="div1">
+                <div>
+                    <li class="fa-solid fa-location-dot"></li><span> LOCATION</span><br><br>
+                    <p>#2661 JanakPuri colony, City Name, Town Name</p>
+                </div>
+                <div>
+                    <li class="fa-regular fa-envelope"></li><span> E-MAIL</span><br><br>
+                    <p>xyz@company.com</p>
+                </div>
+                <div>
+                    <li class="fa-solid fa-phone"></li><span> CALL</span><br><br>
+                    <p>+91 987654321</p>
+                </div>
+                <div>
+                    <img src="./Assets/laptop.jpg" alt="Laptop Image">
+                </div>
+            </div>
+
+            <div id="div2">
+                <form action="" method="post">
+                    <h1 id="heading">Contact Us</h1>
+                    <p>Let us know your questions, suggestions, and concerns by filling out the form below.</p>
+                    <label for="username">Username</label><span>*</span><br>
+                    <input type="text" id="username" name="username" required><br>
+                    <label for="email">Email</label><span>*</span><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone</label><span>*</span><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    <label for="message">Message</label><span>*</span><br>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Assets/bg8.jpeg);
+    /* background-image: url(./Assets/bg3.jpeg); */
+    /* background-image: url(./Assets/laptop.jpg); */
+   
+    /* background-size: cover; */
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
+
+#outer{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #fff;
+}
+ 
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.3;
+   
+
+}
+
+nav div:hover{
+    cursor: pointer;
+    font-size: 1.3rem;
+    color:red
+}
+
+
+
+#outer button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8%;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+
+}
+
+#outer button:hover{
+    background-color: #1cea23;
+    font-size: 1.2rem;
+    color: red;
+}
+
+#formSection{
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid;
+    border-radius: 3%;
+   margin-left: 38%;
+   margin-top: 5%;
+   background-color: #fff;
+}
+
+#h1section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+   
+}
+
+form{
+    margin-top: 20px;
+}
+
+form div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.same{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-grow: 10px;
+}
+
+.same button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 35Vw;
+}
+
+.same button:hover{
+    background-color: #1cea23;
+}
+
+.int{
+    height: 40px;
+    width: 25vw;
+    
+    
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+       
+  
+}
+
+#last span{
+   margin-left: 25%;
+   cursor: pointer;
+}
+
+.same i{
+    margin-top: 10px;
+}
